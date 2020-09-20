@@ -1,4 +1,5 @@
 # i.augu.dev
+[![Discord](https://discordapp.com/api/guilds/382725233695522816/embed.png)](https://discord.gg/yDnbEDH) [![Travis](https://travis-ci.org/auguwu/i.augu.dev.svg?branch=master)](https://travis-ci.org/github/auguwu/i.augu.dev)
 > 💖 **| Simple, fast, and light-weight ShareX server in Rust**
 
 ## Notice
