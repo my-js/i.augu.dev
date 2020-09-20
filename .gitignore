@@ -1,10 +1,4 @@
-src/static/css
-node_modules/
-src/uploads/
-src/config.json
-src/logs
+/target/
 .vscode/
-
-uploader.sxcu
-package-lock.json
-yarn.lock
+Cargo.lock
+**/*.rs.bk
