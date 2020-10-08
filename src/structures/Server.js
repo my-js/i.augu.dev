@@ -81,7 +81,7 @@ module.exports = class Server {
 
     if (this.config.hasOwnProperty('features') && this.config.features.hasOwnProperty('gc')) {
       this.logger.info('Built all middleware! Now starting garbage collector...');
-      await this.gc.start(this.config.features.gc);
+      await this.gc.start(604800000);
       this.logger.info('Started the garbage collector! Now waiting 2 seconds to run the server...');
     } else {
       this.logger.info('Built all middleware! Now waiting 2 seconds to run the server...');
